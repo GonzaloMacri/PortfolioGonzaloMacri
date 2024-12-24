@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+}
+.nav img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 20px 0 10px 200px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    gap: 100px; 
+}
+.navbaroption{
+    font-size: 20px;
+}
+.romanweb {
+    width: 30%;
+    height: auto;
+
+}
+
+.heroinfo{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.subtitle{
+    margin-top: 30px;
+    font-size: 25px ;
+    margin-bottom: 100px;
+}
+.logohero{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    background: rgb(236,180,25);
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutdiv{
+    margin: 70px 300px 0px 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.titleabout{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.textabout{
+    margin: 0px 200px 0 200px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+#moreinfo{
+    background: rgb(236,180,25);
+    background: linear-gradient(180deg, rgba(236,180,25,1) 38%, rgba(236,180,25,1) 42%, rgba(255,255,255,1) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0;
+}
+.carts{
+    display: flex;
+    margin: 30px 200px 30px 200px;
+}
+.infocarts{
+    display: flex;
+    align-items: center;
+    flex-flow: column ;
+    text-align: center;
+    gap: 30px;
+    padding: 70px;
+    background-color: white;
+    border: 1px solid rgb(235, 234, 234);
+    width: 500px;
+    height: 500px;
+    padding: 30px 30px 30px 30px;
+}
+.infocarts:nth-child(1){
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.infocarts:nth-child(3){
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.infocarts img{
+    width: 50px;
+}
+.infocarts h3{
+    font-size: 30px;
+    font-weight: 900;
+}
+.infocarts h4{
+    font-size: 20px;
+}
+.infocarts span{
+    font-weight: 700;
+}
+.infocarts p{
+    font-size: 19px;
+}
+#enterprises{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 80px;
+    margin-bottom: 80px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(236,180,25,1) 10%, rgba(236,180,25,1) 74%, rgba(255,255,255,1) 74%);
+}
+#enterprises h2{
+    font-size: 30px;
+}
+.enterpriseslogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    gap: 100px;
+    border-left: 1px solid rgb(136, 136, 136);
+    border-right: 1px solid rgb(136, 136, 136);
+    background-color: white;
+    padding: 0 30px 0 30px;
+}
+.enterpriseslogo img{
+    width: 100%;
+}
+.clickcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.clickcontact h3{
+    color: rgba(236,180,25,1);
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 30px;
+    margin: 200px 0 30px 0;
+}
+.logocontact{
+    border: 1px solid grey;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+}
+footer{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(236,180,25,1) 17%, rgba(236,180,25,1) 83%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.logofooter{
+
+}
+.footerdiv{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.contactconteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
